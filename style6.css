@@ -1,0 +1,12 @@
+h1{
+    color: brown;
+    border: 5px solid yellow;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    background-color: chocolate;
+    border: 5px solid yellow;
+    margin: 20px;
+    border-radius: 100px;
+}

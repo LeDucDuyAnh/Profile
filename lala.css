@@ -1,0 +1,118 @@
+body{
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(88,37,123,0), 
+    rgba(88,37,123,.5));
+    
+}
+.container{
+    font-family: Arial, sans-serif;
+    border-radius: 5px; 
+    margin: 100px auto;
+    border-radius: 10px;
+    background: #231e39;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    color: #b3b8cd;
+    box-shadow: 0 10px 20px -10px rgba(0,0,0,.75);
+}
+.box1{ 
+    border-radius: 10px 10px 0 0;;
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80); 
+    width: 100%;
+    height: 150px;
+}
+.avatar{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 93px 0 0 -175px;
+    border: 4px solid rgb(187, 31, 83);
+}
+.name{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 27px 0 0 170px;
+}
+.about{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.addfriend, .folow{
+    font-size: 15px;
+    margin-top: 20px;
+    background: #b3b8cd;
+    border: 1px solid #231e39;
+    padding: 10px 25px;
+    color: #231e39;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addfriend:hover, .folow:hover{   
+    background: rgb(110, 110, 241);
+}
+.iconmangxahoi{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    letter-spacing:20px;
+    font-size: 20px;
+    margin-top: 25%;
+    cursor: pointer;
+    transform: translateY(100px);
+    visibility: hidden;
+    transition: 0.5s;
+}
+.a:hover, .b:hover, .c:hover, .d:hover{
+    color: rgb(110, 110, 241);
+}
+.avatar:hover{
+    margin-top: 0px;
+    margin-left: 0px;
+    transition: .5s;
+    transform: scale(1.0);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    border: none;
+}
+.iconchitiet{
+    cursor: pointer;
+    color: black;
+    margin: -470px 0 0 350px;
+}
+
+.iconchitiet:hover{
+    color: white;
+} 
+
+.tooltip {
+    position: relative;
+
+}
+
+.tooltiptext {
+    margin-left: 200px;
+    visibility: hidden;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(88,37,123,0), rgba(88,37,123,1));
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 20px;
+    position: absolute;
+
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.container:hover .iconmangxahoi{
+    transform: translateY(-10px);
+    visibility: visible;
+}
